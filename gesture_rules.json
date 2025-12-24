@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "description": "Hand gesture definitions for Hand2Voice",
+    "finger_order": ["thumb", "index", "middle", "ring", "pinky"],
+    "1": "finger open",
+    "0": "finger closed"
+  },
+
+  "gestures": {
+    "HELLO": {
+      "pattern": [1, 1, 1, 1, 1],
+      "type": "static",
+      "description": "Open palm gesture"
+    },
+
+    "YES": {
+      "pattern": [0, 1, 0, 0, 0],
+      "type": "static",
+      "description": "Index finger raised"
+    },
+
+    "NO": {
+      "pattern": [0, 0, 0, 0, 0],
+      "type": "static",
+      "description": "Closed fist"
+    },
+
+    "THANK YOU": {
+      "pattern": [1, 1, 0, 0, 1],
+      "type": "static",
+      "description": "Thumb, index, and pinky open"
+    }
+  }
+}
