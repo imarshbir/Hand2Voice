@@ -1,7 +1,8 @@
-streamlit==1.52.2
+streamlit
+opencv-python-headless
 mediapipe==0.10.9
-opencv-python-headless==4.12.0.88
 numpy
 requests
-gtts
-protobuf==3.20.3
+gTTS
+pillow
+wordfreq
