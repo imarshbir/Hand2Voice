@@ -5,30 +5,27 @@
     "1": "finger open",
     "0": "finger closed"
   },
-
   "gestures": {
-    "HELLO": {
-      "pattern": [1, 1, 1, 1, 1],
-      "type": "static",
-      "description": "Open palm gesture"
-    },
-
-    "YES": {
-      "pattern": [0, 1, 0, 0, 0],
-      "type": "static",
-      "description": "Index finger raised"
-    },
-
-    "NO": {
-      "pattern": [0, 0, 0, 0, 0],
-      "type": "static",
-      "description": "Closed fist"
-    },
-
-    "THANK YOU": {
+    "A": { "pattern": [0, 0, 0, 0, 0], "type": "static" },
+    "B": { "pattern": [0, 1, 1, 1, 1], "type": "static" },
+    "C": { "pattern": [1, 1, 1, 1, 0], "type": "static" },
+    "D": { "pattern": [0, 1, 0, 0, 0], "type": "static" },
+    "E": { "pattern": [0, 0, 0, 0, 1], "type": "static" },
+    "F": { "pattern": [1, 0, 1, 1, 1], "type": "static" },
+    "G": { "pattern": [1, 1, 0, 0, 0], "type": "static" },
+    "H": { "pattern": [0, 1, 1, 0, 0], "type": "static" },
+    "I": { "pattern": [0, 0, 0, 0, 1], "type": "static" },
+    "P": { "pattern": [1, 0, 0, 0, 1], "type": "static" },
+    "SPACE":  {
       "pattern": [1, 1, 0, 0, 1],
-      "type": "static",
-      "description": "Thumb, index, and pinky open"
+      "type": "control",
+      "description": "Word separator (space)"
+    },
+
+    
+    "DEL": {
+      "pattern": [1,1,1,1,1]
     }
+
   }
 }
